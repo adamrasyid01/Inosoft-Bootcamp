@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Task Bootstrap Inosoft Bootcamp - ADAM R -</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .feature-box {
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+            background-color: #f5f5f5;
+        }
+
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-title {
+            color: #343a40;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+
+        .contact-form {
+            margin-top: 40px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Inosoft Bootcamp</h1>
+        <p>Pengenalan Bootstrap 5</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box bg-info text-white">
+                        <h2>Fitur 1</h2>
+                        <p>Terapkan Bootstrap dengan warna yang menarik dan kreatif.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-box bg-success text-white">
+                        <h2>Fitur 2</h2>
+                        <p>Gunakan CSS khusus untuk memberikan efek hover pada elemen-elemen Anda.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box bg-warning text-white">
+                        <h2>Fitur 3</h2>
+                        <p>Tampilkan gambar dengan style menggunakan objek-fit dan border-radius.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-box bg-danger text-white">
+                        <h2>Fitur 4</h2>
+                        <p>Desain formulir kontak Anda dengan tata letak fleksibel dan modern.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Galeri Gambar</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" class="card-img-top" alt="Gambar 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Deskripsi card 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" class="card-img-top" alt="Gambar 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card 2</h5>
+                            <p class="card-text">Deskripsi card 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" class="card-img-top" alt="Gambar 3" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card 3</h5>
+                            <p class="card-text">Deskripsi card 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row contact-form">
+                <div class="col-md-12">
+                    <h2>Contact Us</h2>
+                    <form class="d-flex flex-column">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-auto">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Task Boostrap 5. All rights reserved.</p>
+    </div>
+
+    
+</body>
+</html>
